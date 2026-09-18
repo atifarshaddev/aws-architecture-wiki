@@ -1,6 +1,6 @@
 # AWS Relational Databases & In-Memory Caching Fabrics (RDS, Aurora, & ElastiCache)
 
-This technical document details the design specifications, replication timelines, and performance scaling mechanics for managed relational database engines and centralized cache storage layers.
+This technical reference manual details the design specifications, replication timelines, and performance scaling mechanics for managed relational database engines and centralized cache memory layers [5.1].
 
 ---
 

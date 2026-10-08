@@ -50,6 +50,6 @@ When an identity (User, Script, or AWS Service via CLI/SDK) triggers an API comm
 
 To minimize account blast radius and enforce enterprise security boundaries, infrastructure design must adhere to strict structural constraints:
 
-*   **The Root Account Prohibition:** The AWS Master Root Account owns absolute administrative and billing parameters. It must be locked down immediately via hardware multi-factor authentication (MFA) and **never** utilized for automated day-to-day administrative workloads.
+*   **The Root Account Prohibition:** The AWS Master Root Account owns absolute administrative and billing parameters. It should be locked down immediately via hardware multi-factor authentication (MFA) and **never** utilized for automated day-to-day administrative workloads.
 *   **The Principle of Least Privilege:** Users must never receive sweeping administrative access masks. Permissions must be explicitly aligned with the exact API actions required for their specific corporate role using decoupled **IAM User Groups**.
 *   **Stateful Audit Tools:** Compliance and credential rotation metrics must be continuously analyzed at scale using the account-level **IAM Credentials Report** and user-level **IAM Access Advisor / Last Accessed Metadata logs** to strip away stale, unused permission profiles.

@@ -32,7 +32,7 @@ ssh -i your-key-name.pem ec2-user@<YOUR-EC2-PUBLIC-IP> -p 2222
 
 ---
 
-## 🐧 2. Comprehensive Linux Systems Administration
+## 🐧 2. Comprehensive Linux System Administration
 *Core operating system engineering commands executed directly INSIDE the EC2 instance shell via SSH.*
 
 ### 📦 System Maintenance & Package Updates
